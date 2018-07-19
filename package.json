@@ -1,0 +1,17 @@
+{
+  "name": "red5pro",
+  "version": "0.0.1",
+  "description": "A red5pro Plugin for Cordova. (The Original Version)",
+  "cordova": {
+    "id": "cordova-plugin-red5pro",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "dcup",
+  "license": "Apache 2.0 License"
+}

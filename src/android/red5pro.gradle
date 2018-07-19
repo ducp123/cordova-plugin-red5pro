@@ -1,0 +1,19 @@
+
+repositories{
+  jcenter()
+  flatDir{
+    dirs 'libs'
+  }
+}
+
+dependencies {
+    //依赖包
+    compile (name:'red5prolib-release', ext:'aar')
+}
+
+android {
+  packagingOptions {
+    exclude 'META-INF/NOTICE'
+    exclude 'META-INF/LICENSE'
+  }
+}
